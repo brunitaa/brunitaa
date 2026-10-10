@@ -1,9 +1,9 @@
 {
   "title": "Languages & Technologies",
   "skills": [
-    { "name": "JavaScript", "value": 4 },
-    { "name": "Python", "value": 3 },
-    { "name": "SQL", "value": 3 },
-    { "name": "C++", "value": 2 }
+    { "name": "JavaScript", "value": 96 },
+    { "name": "Python", "value": 92 },
+    { "name": "SQL", "value": 88 },
+    { "name": "C++", "value": 74 }
   ]
 }

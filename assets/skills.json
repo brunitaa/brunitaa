@@ -1,11 +1,11 @@
 {
   "title": "Software Development Skills",
   "skills": [
-    { "name": "Frontend", "value": 3 },
-    { "name": "Backend", "value": 3 },
-    { "name": "Mobile Development", "value": 3 },
-    { "name": "Testing", "value": 3 },
-    { "name": "Databases", "value": 3 },
-    { "name": "Artificial Intelligence", "value": 2 }
+    { "name": "Frontend", "value": 96 },
+    { "name": "Backend", "value": 94 },
+    { "name": "Mobile Development", "value": 80 },
+    { "name": "Testing", "value": 84 },
+    { "name": "Databases", "value": 90 },
+    { "name": "Artificial Intelligence", "value": 82 }
   ]
 }

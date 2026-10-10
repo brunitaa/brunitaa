@@ -2,9 +2,11 @@
 
 <!-- PROFILE BANNER -->
 
-<a href="https://github.com/brunitaa">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=AA9BEF&center=true&vCenter=true&width=800&lines=Bruna+Antelo+%7C+Software+Developer;Building+solutions+with+purpose;Learning%2C+coding%2C+sharing" alt="Typing SVG" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.v9.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.v9.svg">
+  <img src="assets/banner-dark.v9.svg" alt="Bruna profile banner" width="880" />
+</picture>
 
 <br><br>
 

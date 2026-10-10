@@ -19,6 +19,7 @@ from scipy.spatial.distance import cdist
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / "assets/source/portrait.png"
+SOURCE_SVG = ROOT / "assets/source/portrait.svg"
 ASSETS = ROOT / "assets"
 LOGOS = Path(__file__).resolve().parent / "logos"
 DATA = Path(__file__).resolve().parent / "data"
@@ -76,52 +77,61 @@ THEMES = {
 
 
 def ensure_source_portrait() -> Path:
-    """Create a neutral placeholder portrait when no personal photo is available."""
+    """Ensure a portrait source exists without overwriting a real user image."""
     SOURCE.parent.mkdir(parents=True, exist_ok=True)
+
+    portrait_svg = '''
+    <svg xmlns="http://www.w3.org/2000/svg" width="420" height="500" viewBox="0 0 420 500">
+      <defs>
+        <linearGradient id="skin" x1="0" x2="1" y1="0" y2="1">
+          <stop offset="0%" stop-color="#f7d7bb"/>
+          <stop offset="100%" stop-color="#e7b993"/>
+        </linearGradient>
+      </defs>
+      <g>
+        <path d="M70 415C110 350 150 318 175 294H245C270 318 310 350 350 415V500H70V415Z" fill="#4B3A70"/>
+        <ellipse cx="210" cy="205" rx="94" ry="110" fill="url(#skin)"/>
+        <path d="M118 182C118 108 164 58 210 58C255 58 302 108 302 182C292 146 276 118 250 96C235 85 224 80 210 80C176 80 142 117 129 154C124 168 120 175 118 182Z" fill="#1c1b2b"/>
+        <path d="M132 166C146 121 170 100 210 100C250 100 274 121 288 166C280 141 261 120 210 120C160 120 142 139 132 166Z" fill="#201d31" opacity="0.85"/>
+        <circle cx="175" cy="211" r="6" fill="#1c1b2b"/>
+        <circle cx="245" cy="211" r="6" fill="#1c1b2b"/>
+        <path d="M176 246C188 258 203 264 210 264C217 264 232 258 244 246" fill="none" stroke="#8f5a47" stroke-width="6" stroke-linecap="round"/>
+        <path d="M170 286C189 298 201 302 210 302C219 302 231 298 250 286" fill="none" stroke="#a06d5d" stroke-width="7" stroke-linecap="round"/>
+        <path d="M138 328C170 355 188 362 210 362C232 362 250 355 282 328L294 500H126L138 328Z" fill="#2c2443" opacity="0.92"/>
+        <circle cx="210" cy="155" r="12" fill="#f2d9c4" opacity="0.28"/>
+      </g>
+    </svg>
+    '''
+    if not SOURCE_SVG.exists():
+        SOURCE_SVG.write_text(portrait_svg.strip(), encoding="utf-8")
+
+    # Keep an existing, real portrait image intact. Only generate the fallback
+    # placeholder if there is no source PNG at all.
     if SOURCE.exists():
         return SOURCE
 
     image = Image.new("RGBA", (420, 500), (0, 0, 0, 0))
     draw = ImageDraw.Draw(image)
-
-    draw.ellipse((70, 75, 350, 260), fill=(230, 208, 178, 255))
-    draw.ellipse((50, 40, 370, 220), fill=(79, 69, 89, 255))
-    draw.rounded_rectangle((90, 270, 330, 420), radius=40, fill=(118, 106, 133, 255))
-    draw.ellipse((180, 170, 240, 210), fill=(31, 30, 35, 255))
-    draw.ellipse((120, 170, 160, 210), fill=(31, 30, 35, 255))
-    draw.arc((140, 185, 280, 225), start=180, end=0, fill=(31, 30, 35, 255), width=6)
-    draw.line((150, 260, 185, 290), fill=(79, 69, 89, 255), width=12)
-    draw.line((270, 260, 235, 290), fill=(79, 69, 89, 255), width=12)
-
+    draw.rounded_rectangle((70, 415, 350, 500), radius=18, fill=(75, 58, 112, 255))
+    draw.ellipse((116, 95, 304, 305), fill=(247, 215, 187, 255))
+    draw.polygon([(118, 182), (145, 108), (175, 82), (210, 62), (246, 82), (275, 108), (302, 182), (292, 146), (273, 120), (236, 98), (210, 86), (185, 98), (147, 120), (128, 146)], fill=(28, 27, 43, 255))
+    draw.ellipse((146, 180, 170, 236), fill=(28, 27, 43, 255))
+    draw.ellipse((250, 180, 274, 236), fill=(28, 27, 43, 255))
+    draw.arc((176, 240, 244, 268), start=180, end=0, fill=(143, 90, 71, 255), width=6)
+    draw.arc((170, 283, 250, 307), start=180, end=0, fill=(160, 109, 93, 255), width=7)
+    draw.polygon([(138, 328), (152, 370), (210, 360), (268, 370), (282, 328), (294, 500), (126, 500)], fill=(44, 36, 67, 255))
     image.save(SOURCE, optimize=True)
+
     return SOURCE
 
 
 def make_logos() -> dict[str, Image.Image]:
-    """Create clean 400px black-on-transparent silhouette sources."""
+    """Create software-oriented symbols for the banner: code, data, and platform stack."""
     LOGOS.mkdir(parents=True, exist_ok=True)
     size = 400
     logos: dict[str, Image.Image] = {}
 
-    # Rust-inspired gear: twelve teeth, heavy annulus, and hub cutout.
-    rust = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-    d = ImageDraw.Draw(rust)
-    center = np.array([200.0, 200.0])
-    outer: list[tuple[float, float]] = []
-    for tooth in range(12):
-        base = tooth * math.tau / 12
-        for offset, radius in [
-            (-0.42, 150), (-0.30, 178), (0.30, 178), (0.42, 150)
-        ]:
-            a = base + offset * math.tau / 12
-            outer.append(tuple(center + radius * np.array([math.cos(a), math.sin(a)])))
-    d.polygon(outer, fill="black")
-    d.ellipse((70, 70, 330, 330), fill="black")
-    d.ellipse((128, 128, 272, 272), fill=(0, 0, 0, 0))
-    d.ellipse((174, 174, 226, 226), fill="black")
-    logos["rust"] = rust
-
-    # </> mark built from broad, rounded strokes.
+    # Code / API icon: paired brackets and a slash.
     code = Image.new("RGBA", (size, size), (0, 0, 0, 0))
     d = ImageDraw.Draw(code)
     stroke = 42
@@ -130,21 +140,35 @@ def make_logos() -> dict[str, Image.Image]:
     d.line([(225, 72), (174, 328)], fill="black", width=stroke)
     logos["code"] = code
 
-    # Stellar-inspired four-point star with a small connected node network.
-    stellar = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-    d = ImageDraw.Draw(stellar)
-    star: list[tuple[float, float]] = []
-    for i in range(16):
-        a = -math.pi / 2 + i * math.pi / 8
-        radius = 137 if i % 4 == 0 else (45 if i % 2 == 0 else 25)
-        star.append((200 + math.cos(a) * radius, 200 + math.sin(a) * radius))
-    d.polygon(star, fill="black")
-    nodes = [(82, 112), (322, 106), (326, 300), (88, 316)]
-    for a, b in zip(nodes, nodes[1:] + nodes[:1]):
-        d.line([a, b], fill="black", width=12)
-    for x, y in nodes:
-        d.ellipse((x - 19, y - 19, x + 19, y + 19), fill="black")
-    logos["stellar"] = stellar
+    # Data / backend icon: layered database cylinders.
+    data = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    d = ImageDraw.Draw(data)
+    body = [(95, 145), (305, 145), (305, 280), (95, 280)]
+    d.rounded_rectangle((95, 120, 305, 295), radius=20, fill="black")
+    d.ellipse((95, 120, 305, 155), fill="black")
+    d.ellipse((95, 260, 305, 295), fill="black")
+    d.line((145, 178, 145, 245), fill="white", width=8)
+    d.line((200, 178, 200, 245), fill="white", width=8)
+    d.line((255, 178, 255, 245), fill="white", width=8)
+    d.line((105, 175, 295, 175), fill="white", width=7)
+    d.line((105, 210, 295, 210), fill="white", width=7)
+    d.line((105, 245, 295, 245), fill="white", width=7)
+    logos["data"] = data
+
+    # Stack / product icon: layered blocks and a node.
+    stack = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    d = ImageDraw.Draw(stack)
+    layers = [(90, 150), (310, 150), (310, 250), (90, 250), (90, 150)]
+    d.rectangle((100, 120, 300, 170), fill="black")
+    d.rectangle((70, 180, 330, 230), fill="black")
+    d.rectangle((120, 240, 280, 290), fill="black")
+    d.ellipse((182, 143, 218, 179), fill="white")
+    d.ellipse((278, 203, 314, 239), fill="white")
+    d.ellipse((86, 203, 122, 239), fill="white")
+    d.line((200, 175, 200, 205), fill="white", width=8)
+    d.line((200, 205, 296, 219), fill="white", width=8)
+    d.line((200, 205, 104, 219), fill="white", width=8)
+    logos["stack"] = stack
 
     for name, image in logos.items():
         image.save(LOGOS / f"{name}.png", optimize=True)
@@ -178,10 +202,14 @@ def floyd_steinberg(gray: np.ndarray) -> np.ndarray:
 
 
 def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
-    """Return sampled x/y banner coordinates from a 300x340 dither grid."""
+    """Return sampled x/y banner coordinates from a stable portrait grid."""
     source = Image.open(SOURCE).convert("RGBA")
-    # Tighter head + shoulders crop so face detail fills the VISUAL.MAP frame.
-    crop = source.crop((18, 28, 390, 450)).resize((300, 340), Image.Resampling.LANCZOS)
+
+    # Use the earlier stable crop that keeps the face complete without the overly
+    # flattened, wall-like look caused by the more aggressive tuning.
+    crop = ImageOps.fit(source, (420, 500), centering=(0.5, 0.55))
+    crop = crop.resize((300, 340), Image.Resampling.LANCZOS)
+
     rgb = crop.convert("RGB")
     alpha = np.asarray(crop.getchannel("A"), dtype=np.float32) / 255.0
 
@@ -195,21 +223,21 @@ def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
         prepared = ImageOps.grayscale(white.convert("RGB"))
         select_lit = False
 
-    # Equalize against the subject only (ignore empty alpha) so lit skin vs dark
-    # hair doesn't crush midtones; then punch local contrast for facial edges.
     if theme == "dark":
         mask = Image.fromarray(np.uint8((alpha > 0.08) * 255), "L")
         prepared = ImageOps.equalize(prepared, mask=mask)
     else:
-        prepared = ImageOps.autocontrast(prepared, cutoff=1)
-    prepared = ImageEnhance.Contrast(prepared).enhance(1.35)
-    prepared = prepared.filter(ImageFilter.UnsharpMask(radius=2, percent=175, threshold=1))
+        prepared = ImageOps.autocontrast(prepared, cutoff=0)
+
+    prepared = ImageEnhance.Contrast(prepared).enhance(1.8)
+    prepared = prepared.filter(ImageFilter.GaussianBlur(radius=0.6))
     bits = floyd_steinberg(np.asarray(prepared))
     active = bits if select_lit else ~bits
     if theme == "dark":
         active &= alpha > 0.08
+    else:
+        active &= np.asarray(prepared) < 240
 
-    # Keep the full 300×340 lattice — skipping 2×2 cells was the soft/blurry look.
     ys, xs = np.where(active)
     if len(xs) == 0:
         return np.zeros((0, 2), dtype=np.float32)
@@ -287,9 +315,9 @@ def render_svg(
     t = THEMES[theme_name]
     n = min(TRAVELLER_COUNT, len(portrait))
     source = portrait[rng.choice(len(portrait), n, replace=False)]
-    rust = transport(source, logo_points["rust"][:n])
-    code = transport(rust, logo_points["code"][:n])
-    stellar = transport(code, logo_points["stellar"][:n])
+    code = transport(source, logo_points["code"][:n])
+    data = transport(code, logo_points["data"][:n])
+    stack = transport(data, logo_points["stack"][:n])
 
     # Explicit uneven phase boundaries: 3.0 portrait, 2.0 per logo,
     # and four 1.3 transitions = 14.2 seconds.
@@ -297,7 +325,7 @@ def render_svg(
     key_times = ";".join(num(v / LOOP_SECONDS) for v in times)
     # Returning each traveller to its exact starting portrait coordinate keeps
     # the repeat boundary seamless. All logo-to-logo morphs use optimal transport.
-    frames = [source, source, rust, rust, code, code, stellar, stellar, source]
+    frames = [source, source, code, code, data, data, stack, stack, source]
     opacity_values = "0;0;1;1;1;1;1;1;0"
 
     parts: list[str] = [
@@ -344,8 +372,8 @@ def render_svg(
         '<g opacity="1">',
     ]
 
-    # Dense portrait drift: 94 independently noisy bands moving toward Rust's centroid.
-    rust_centroid = rust.mean(axis=0)
+    # Dense portrait drift: 94 independently noisy bands moving toward the code icon centroid.
+    code_centroid = code.mean(axis=0)
     band_ids = rng.integers(0, 94, size=len(portrait))
     noise = rng.normal(0, 4, size=(94, 2))
     for band in range(94):
@@ -353,7 +381,7 @@ def render_svg(
         if not len(pts):
             continue
         centroid = pts.mean(axis=0)
-        delta = (rust_centroid - centroid) * 0.18 + noise[band]
+        delta = (code_centroid - centroid) * 0.18 + noise[band]
         d = point_path(pts)
         parts.append(
             f'<path d="{d}" fill="none" stroke="{t["portrait"]}" stroke-width="1" '
