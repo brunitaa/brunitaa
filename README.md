@@ -1,131 +1,180 @@
-# Hi, I'm Bruna Antelo 👋
+ <div align="center">
 
-### Systems Engineer | Software Developer
+<!-- PROFILE BANNER -->
 
-I'm a Systems Engineering graduate passionate about building software solutions that solve real-world problems. I enjoy learning new technologies, developing applications, and exploring how technology can create a positive impact.
+<a href="https://github.com/brunitaa">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=AA9BEF&center=true&vCenter=true&width=800&lines=Bruna+Antelo+%7C+Software+Developer;Building+software+that+solves+real+problems;Learning%2C+building%2C+and+growing" alt="Typing SVG" />
+</a>
 
----
+<br><br>
 
-### About Me
+<a href="https://www.linkedin.com/in/bruna-antelo/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="https://github.com/brunitaa">
+  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=AA9BEF" alt="GitHub"/>
+</a>
 
-- Software developer interested in web and mobile applications.
-- Exploring backend development, frontend development, and Artificial Intelligence.
-- Women Techmakers Ambassador.
-- Active in technology communities, collaboration, and initiatives that encourage more people to explore technology.
+<br><br>
 
-### Tech Stack
+<img src="https://komarev.com/ghpvc/?username=brunitaa&style=flat&color=aa9bef&label=profile+views" alt="Profile views"/>
 
-**Languages**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Backend & Databases**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
-**Testing & Tools**
-
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+</div>
 
 ---
 
-### Featured Projects
+## This is me :)
+
+Hi, I'm **Bruna**, a Systems Engineering graduate from Bolivia 🇧🇴, passionate about software development and technology with purpose.
+
+I enjoy building applications, exploring new technologies, and turning ideas into practical solutions. I'm especially interested in projects that address real-world problems and create a positive impact.
+
+- 💻 **Software development:** Interested in web, mobile, and backend development.
+- 🤖 **Artificial Intelligence:** Exploring how AI can be integrated into useful software solutions.
+- 🌟 **Women Techmakers Ambassador:** Supporting learning, collaboration, and greater participation in technology.
+- 🌱 **Community:** I enjoy sharing knowledge, connecting with other developers, and learning together.
+- 💬 Always happy to talk about software development, technology communities, and projects with social impact.
+
+<br>
+
+<div align="center">
+
+## My tech stack
+
+<img src="https://skillicons.dev/icons?i=js,python,cpp,react,reactnative,nodejs,express,html,css,tailwind,postgres,mongodb,git,github,vscode&perline=5" alt="Technology stack"/>
+
+</div>
+
+---
+
+## Projects I've built
+
+<div align="center">
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">CAA-Backend</h3>
-      <p align="center">[Add project description here]</p>
-      <p align="center"><strong>Technologies:</strong> [Add technologies]</p>
-      <p align="center"><a href="REPOSITORY_URL">View Repository</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">MAGEO</h3>
-      <p align="center">[Add project description here]</p>
-      <p align="center"><strong>Technologies:</strong> [Add technologies]</p>
-      <p align="center"><a href="REPOSITORY_URL">View Repository</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">ParkFinderWEB</h3>
-      <p align="center">[Add project description here]</p>
-      <p align="center"><strong>Technologies:</strong> [Add technologies]</p>
-      <p align="center"><a href="REPOSITORY_URL">View Repository</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">Prueba1</h3>
-      <p align="center">[Add project description here]</p>
-      <p align="center"><strong>Technologies:</strong> [Add technologies]</p>
-      <p align="center"><a href="REPOSITORY_URL">View Repository</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">webISI</h3>
-      <p align="center">[Add project description here]</p>
-      <p align="center"><strong>Technologies:</strong> [Add technologies]</p>
-      <p align="center"><a href="REPOSITORY_URL">View Repository</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">MAGEO2</h3>
-      <p align="center">[Add project description here]</p>
-      <p align="center"><strong>Technologies:</strong> [Add technologies]</p>
-      <p align="center"><a href="REPOSITORY_URL">View Repository</a></p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+### CAA-Backend
+
+[Repository link](REPOSITORY_URL)
+
+**About the project**
+
+Add a description of the project, the problem it solves, and your contribution.
+
+**Technologies:** Add technologies used.
+
+</td>
+<td width="50%" valign="top">
+
+### MAGEO
+
+[Repository link](REPOSITORY_URL)
+
+**About the project**
+
+Add a description of the project, its main features, and your contribution.
+
+**Technologies:** Add technologies used.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ParkFinderWEB
+
+[Repository link](REPOSITORY_URL)
+
+**About the project**
+
+Add a description of the project, its purpose, and its main features.
+
+**Technologies:** Add technologies used.
+
+</td>
+<td width="50%" valign="top">
+
+### Prueba1
+
+[Repository link](REPOSITORY_URL)
+
+**About the project**
+
+Add a description of what you developed and what you learned.
+
+**Technologies:** Add technologies used.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### webISI
+
+[Repository link](REPOSITORY_URL)
+
+**About the project**
+
+Add a description of the project and its main functionality.
+
+**Technologies:** Add technologies used.
+
+</td>
+<td width="50%" valign="top">
+
+### MAGEO2
+
+[Repository link](REPOSITORY_URL)
+
+**About the project**
+
+Add a description of the project and your contribution.
+
+**Technologies:** Add technologies used.
+
+</td>
+</tr>
 </table>
+
+</div>
 
 ---
 
-### Communities & Leadership
+## Communities & leadership
 
 - **Women Techmakers** — Ambassador
 - **Microsoft User Group Bolivia** — Technology community
 - **PyLadies Santa Cruz de la Sierra** — Python community
 
-I enjoy sharing knowledge, collaborating with others, and helping create welcoming spaces for people interested in technology.
+I believe technology communities are a great place to learn, collaborate, and help others grow. I'm interested in creating opportunities for people to connect, share knowledge, and build together.
 
 ---
 
-### GitHub Stats
+<div align="center">
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=brunitaa&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub statistics"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=brunitaa&layout=compact&hide_border=true" alt="Most used programming languages"/>
-</p>
+## A few GitHub stats
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=brunitaa&show_icons=true&hide_border=true&theme=transparent&title_color=AA9BEF&icon_color=AA9BEF" alt="GitHub statistics"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=brunitaa&layout=compact&hide_border=true&theme=transparent&title_color=AA9BEF" alt="Most used languages"/>
+
+</div>
 
 ---
 
-### Let's Connect
+<div align="center">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/bruna-antelo/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/brunitaa">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
+### Let's connect
 
-<p align="center">
-  <i>Always learning, building, and exploring new possibilities through technology.</i>
-</p>
+<a href="https://www.linkedin.com/in/bruna-antelo/">
+  <img src="https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/>
+</a>
+
+<br><br>
+
+<sub>Built with curiosity and a love for technology · @brunitaa</sub>
+
+</div>
