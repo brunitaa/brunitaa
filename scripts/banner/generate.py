@@ -455,6 +455,28 @@ def render_svg(
         ]
     )
 
+    rotating_phrases = [
+        "BRUNA ANTELO",
+        "SYSTEMS ENGINEER",
+        "FULL STACK DEV",
+        "BUILDING + LEARNING",
+        "LATAM • BOLIVIA",
+    ]
+    phrase_y = 155.0
+    for index, phrase in enumerate(rotating_phrases):
+        start = index * 3.0
+        parts.append(
+            f'<text x="490" y="{num(phrase_y)}" fill="{t["text"]}" '
+            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="24" '
+            'font-weight="700" letter-spacing=".8" opacity="0">'
+            f'{html.escape(phrase)}'
+            f'<animate attributeName="opacity" values="0;0;1;1;0;0" '
+            f'keyTimes="0;0.18;0.28;0.72;0.82;1" begin="{num(start)}s" dur="14s" '
+            'repeatCount="indefinite"/>'
+            '</text>'
+        )
+        phrase_y += 26
+
     value_right = 1127.0
     row_y = 153.0
     for label, value in ROWS:
