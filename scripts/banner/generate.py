@@ -385,27 +385,14 @@ def render_svg(
         d = point_path(pts)
         parts.append(
             f'<path d="{d}" fill="none" stroke="{t["portrait"]}" stroke-width="1" '
-            'opacity=".94">'
-            f'<animateTransform attributeName="transform" type="translate" begin="{INTRO_SECONDS}s" '
-            f'dur="{LOOP_SECONDS}s" repeatCount="indefinite" calcMode="linear" '
-            f'keyTimes="{key_times}" values="0 0;0 0;{num(delta[0])} {num(delta[1])};'
-            f'{num(delta[0])} {num(delta[1])};0 0;0 0;0 0;0 0;0 0"/>'
-            f'<animate attributeName="opacity" begin="{INTRO_SECONDS}s" dur="{LOOP_SECONDS}s" '
-            f'repeatCount="indefinite" keyTimes="{key_times}" '
-            'values=".94;.94;0;0;0;0;0;0;.94"/></path>'
+            'opacity=".94"/>'
         )
 
     # Optimal-transport travellers, represented as tiny path squares (never glyphs).
     for i in range(n):
         positions = animate_values(frames, i)
         parts.append(
-            f'<path d="M-.65-.65h1.3v1.3h-1.3z" fill="{t["portrait"]}">'
-            f'<animateTransform attributeName="transform" type="translate" begin="{INTRO_SECONDS}s" '
-            f'dur="{LOOP_SECONDS}s" repeatCount="indefinite" calcMode="linear" '
-            f'keyTimes="{key_times}" values="{positions}"/>'
-            f'<animate attributeName="opacity" begin="{INTRO_SECONDS}s" dur="{LOOP_SECONDS}s" '
-            f'repeatCount="indefinite" calcMode="linear" keyTimes="{key_times}" '
-            f'values="{opacity_values}"/></path>'
+            f'<path d="M-.65-.65h1.3v1.3h-1.3z" fill="{t["portrait"]}" opacity=".94"/>'
         )
     parts.append("</g>")
 
@@ -420,11 +407,7 @@ def render_svg(
             continue
         parts.append(
             f'<path d="{point_path(pts)}" fill="none" stroke="{t["portrait"]}" '
-            'stroke-width="1" opacity="0">'
-            f'<animate attributeName="opacity" begin="{num(starts[group])}s" dur=".8s" '
-            'values="0;1" fill="freeze"/>'
-            '<animate attributeName="opacity" begin="3.08s" dur=".12s" values="1;0" fill="freeze"/>'
-            "</path>"
+            'stroke-width="1" opacity=".8"/>'
         )
     parts.extend(
         [
@@ -441,9 +424,7 @@ def render_svg(
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
             'font-weight="700" letter-spacing="1.2">SYSTEM.INFO</text>',
             # LIVE badge and handle pill.
-            '<g filter="url(#glow)"><circle cx="915" cy="106" r="4" fill="#FF4D5A">'
-            '<animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/>'
-            '</circle></g>',
+            '<g filter="url(#glow)"><circle cx="915" cy="106" r="4" fill="#FF4D5A"/></g>',
             '<text x="927" y="111" fill="#FF4D5A" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" '
             'font-weight="700">LIVE</text>',
@@ -463,17 +444,12 @@ def render_svg(
         "LATAM • BOLIVIA",
     ]
     phrase_y = 155.0
-    for index, phrase in enumerate(rotating_phrases):
-        start = index * 3.0
+    for phrase in rotating_phrases:
         parts.append(
             f'<text x="490" y="{num(phrase_y)}" fill="{t["text"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="24" '
-            'font-weight="700" letter-spacing=".8" opacity="0">'
-            f'{html.escape(phrase)}'
-            f'<animate attributeName="opacity" values="0;0;1;1;0;0" '
-            f'keyTimes="0;0.18;0.28;0.72;0.82;1" begin="{num(start)}s" dur="14s" '
-            'repeatCount="indefinite"/>'
-            '</text>'
+            'font-weight="700" letter-spacing=".8" opacity="1">'
+            f'{html.escape(phrase)}</text>'
         )
         phrase_y += 26
 
