@@ -52,19 +52,19 @@ I'm a Systems Engineering graduate passionate about building software solutions 
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">Project Name</h3>
+      <h3 align="center">Expresarte</h3>
       <p align="center">
         <a href="REPOSITORY_URL">
           <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View repository"/>
         </a>
       </p>
       <p>Briefly describe the problem this project solves, its main features, and your contribution.</p>
-      <p><strong>Technologies:</strong> Technology 1, Technology 2, Technology 3</p>
+      <p><strong>Technologies:</strong> React, JS, Python, PostGreSQL, React Nativa 3</p>
     </td>
     <td width="50%">
       <h3 align="center">Project Name</h3>
       <p align="center">
-        <a href="REPOSITORY_URL">
+        <a href="https://github.com/brunitaa/CAA-Backend">
           <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View repository"/>
         </a>
       </p>
