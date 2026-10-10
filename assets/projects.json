@@ -2,19 +2,19 @@
   {
     "name": "CAA-Backend",
     "url": "https://github.com/brunitaa/CAA-Backend",
-    "description": "ADD YOUR PROJECT DESCRIPTION",
-    "technologies": ["ADD", "TECHNOLOGIES"]
+    "description": "Backend project focused on structured logic, maintainable data flows, and service architecture for real-world solutions.",
+    "technologies": ["Python", "APIs", "PostgreSQL", "Backend"]
   },
   {
     "name": "MAGEO",
     "url": "https://github.com/brunitaa/MAGEO",
-    "description": "ADD YOUR PROJECT DESCRIPTION",
-    "technologies": ["ADD", "TECHNOLOGIES"]
+    "description": "Project centered on practical discovery and user experience, helping people find relevant places through a clear digital interface.",
+    "technologies": ["JavaScript", "React", "Node.js", "Web App"]
   },
   {
     "name": "ParkFinderWEB",
     "url": "https://github.com/brunitaa/ParkFinderWEB",
-    "description": "ADD YOUR PROJECT DESCRIPTION",
-    "technologies": ["ADD", "TECHNOLOGIES"]
+    "description": "Web application created to simplify everyday decision-making by making parking information more accessible and easier to use.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Frontend"]
   }
 ]

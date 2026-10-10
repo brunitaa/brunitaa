@@ -3,7 +3,7 @@
 <!-- PROFILE BANNER -->
 
 <a href="https://github.com/brunitaa">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=AA9BEF&center=true&vCenter=true&width=800&lines=Bruna+Antelo+%7C+Software+Developer;Building+software+that+solves+real+problems;Learning%2C+building%2C+and+growing" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=AA9BEF&center=true&vCenter=true&width=800&lines=Bruna+Antelo+%7C+Software+Developer;Building+solutions+with+purpose;Learning%2C+coding%2C+sharing" alt="Typing SVG" />
 </a>
 
 <br><br>
@@ -26,15 +26,15 @@
 
 ## This is me :)
 
-Hi, I'm **Bruna**, a Systems Engineering graduate from Bolivia 🇧🇴, passionate about software development and technology with purpose.
+Hi, I'm **Bruna**, a Systems Engineering graduate from Bolivia 🇧🇴 who enjoys turning ideas into practical, useful software.
 
-I enjoy building applications, exploring new technologies, and turning ideas into practical solutions. I'm especially interested in projects that address real-world problems and create a positive impact.
+I like building products that solve real problems, learning by doing, and collaborating with people who care about technology as a way to create impact. My focus is on web, backend, and adaptable solutions that combine user experience with solid engineering.
 
-- 💻 **Software development:** Interested in web, mobile, and backend development.
-- 🤖 **Artificial Intelligence:** Exploring how AI can be integrated into useful software solutions.
-- 🌟 **Women Techmakers Ambassador:** Supporting learning, collaboration, and greater participation in technology.
-- 🌱 **Community:** I enjoy sharing knowledge, connecting with other developers, and learning together.
-- 💬 Always happy to talk about software development, technology communities, and projects with social impact.
+- 💻 **Software development:** Web, backend, and product-oriented engineering.
+- 🤖 **AI and experimentation:** Exploring how intelligent tools can improve everyday experiences.
+- 🌟 **Women Techmakers Ambassador:** Supporting learning, inclusion, and participation in tech.
+- 🌱 **Community:** Sharing knowledge, growing with others, and building meaningful connections.
+- 💬 Always happy to talk about software, learning, communities, and projects with social value.
 
 <br>
 
@@ -48,7 +48,7 @@ I enjoy building applications, exploring new technologies, and turning ideas int
 
 ---
 
-## Projects I've built
+## Projects I’ve built
 
 <div align="center">
 
@@ -58,26 +58,26 @@ I enjoy building applications, exploring new technologies, and turning ideas int
 
 ### CAA-Backend
 
-[Repository link](REPOSITORY_URL)
+[Repository](https://github.com/brunitaa/CAA-Backend)
 
 **About the project**
 
-Add a description of the project, the problem it solves, and your contribution.
+Backend-focused project designed to organize business logic, improve maintainability, and support a cleaner flow of data in a real application context.
 
-**Technologies:** Add technologies used.
+**Technologies:** Python, backend APIs, databases, and service architecture.
 
 </td>
 <td width="50%" valign="top">
 
 ### MAGEO
 
-[Repository link](REPOSITORY_URL)
+[Repository](https://github.com/brunitaa/MAGEO)
 
 **About the project**
 
-Add a description of the project, its main features, and your contribution.
+A project aimed at improving discovery and access to relevant locations through a practical and user-centered digital experience.
 
-**Technologies:** Add technologies used.
+**Technologies:** JavaScript, web interfaces, and application logic.
 
 </td>
 </tr>
@@ -86,54 +86,26 @@ Add a description of the project, its main features, and your contribution.
 
 ### ParkFinderWEB
 
-[Repository link](REPOSITORY_URL)
+[Repository](https://github.com/brunitaa/ParkFinderWEB)
 
 **About the project**
 
-Add a description of the project, its purpose, and its main features.
+A web application focused on solving a common everyday problem by making it easier to find and evaluate available parking options.
 
-**Technologies:** Add technologies used.
-
-</td>
-<td width="50%" valign="top">
-
-### Prueba1
-
-[Repository link](REPOSITORY_URL)
-
-**About the project**
-
-Add a description of what you developed and what you learned.
-
-**Technologies:** Add technologies used.
+**Technologies:** HTML, CSS, JavaScript, and frontend development.
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### webISI
 
-[Repository link](REPOSITORY_URL)
+[Repository](https://github.com/brunitaa/webISI)
 
 **About the project**
 
-Add a description of the project and its main functionality.
+A personal project exploring web development, interface design, and information flows in a structured digital system.
 
-**Technologies:** Add technologies used.
-
-</td>
-<td width="50%" valign="top">
-
-### MAGEO2
-
-[Repository link](REPOSITORY_URL)
-
-**About the project**
-
-Add a description of the project and your contribution.
-
-**Technologies:** Add technologies used.
+**Technologies:** Frontend development, web architecture, and UI design.
 
 </td>
 </tr>
@@ -149,7 +121,7 @@ Add a description of the project and your contribution.
 - **Microsoft User Group Bolivia** — Technology community
 - **PyLadies Santa Cruz de la Sierra** — Python community
 
-I believe technology communities are a great place to learn, collaborate, and help others grow. I'm interested in creating opportunities for people to connect, share knowledge, and build together.
+I believe technology communities are one of the best places to learn, collaborate, and help others grow. I’m interested in creating spaces where people can connect, share ideas, and build together with confidence.
 
 ---
 
@@ -167,7 +139,7 @@ I believe technology communities are a great place to learn, collaborate, and he
 
 <div align="center">
 
-### Let's connect
+### Let’s connect
 
 <a href="https://www.linkedin.com/in/bruna-antelo/">
   <img src="https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/>
@@ -175,6 +147,6 @@ I believe technology communities are a great place to learn, collaborate, and he
 
 <br><br>
 
-<sub>Built with curiosity and a love for technology · @brunitaa</sub>
+<sub>Built with curiosity, learning, and a love for technology · @brunitaa</sub>
 
 </div>

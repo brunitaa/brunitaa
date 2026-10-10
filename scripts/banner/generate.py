@@ -18,7 +18,7 @@ from scipy.spatial.distance import cdist
 
 
 ROOT = Path(__file__).resolve().parents[2]
-SOURCE = ROOT / "assets/source/mrr.png"
+SOURCE = ROOT / "assets/source/portrait.png"
 ASSETS = ROOT / "assets"
 LOGOS = Path(__file__).resolve().parent / "logos"
 DATA = Path(__file__).resolve().parent / "data"
@@ -30,21 +30,21 @@ TRAVELLER_COUNT = 900
 SEED = 314159
 
 ROWS = [
-    ("Subject", "Emmi"),
-    ("Role", "Blockchain Engineer · Tech Lead"),
+    ("Subject", "Bruna"),
+    ("Role", "Systems Engineer · Full Stack Dev"),
     ("Origin", "Bolivia"),
-    ("Education", "Community · LATAM"),
+    ("Education", "Systems Engineering"),
     ("Status", "Building + Learning + Shipping"),
-    ("ToolChain", "Sublime · Cursor · Git"),
-    ("Core.Lang", "TypeScript · Rust · Solidity"),
-    ("Core.Frontend", "React · Next.js · Three.js · Tailwind"),
-    ("Core.Backend", "Node · Python"),
-    ("Core.Database", "Postgres · Supabase"),
-    ("Core.Infra", "Vercel · Docker · AWS"),
+    ("ToolChain", "VS Code · Git · Docker"),
+    ("Core.Lang", "Python · JavaScript · C++"),
+    ("Core.Frontend", "React · Next.js · Tailwind"),
+    ("Core.Backend", "Node · Express · FastAPI"),
+    ("Core.Database", "Postgres · MongoDB"),
+    ("Core.Infra", "Vercel · Azure · AWS"),
     ("Grid.Mail", "—"),
-    ("Grid.LinkedIn", "/in/emmi-aguilar-rivero"),
-    ("Grid.GitHub", "emmi-lili"),
-    ("Grid.X", "@emmcriptada"),
+    ("Grid.LinkedIn", "/in/bruna-antelo"),
+    ("Grid.GitHub", "brunitaa"),
+    ("Grid.X", "@brunitaa"),
 ]
 
 THEMES = {
@@ -73,6 +73,28 @@ THEMES = {
         "shadow": "#AAB7C4",
     },
 }
+
+
+def ensure_source_portrait() -> Path:
+    """Create a neutral placeholder portrait when no personal photo is available."""
+    SOURCE.parent.mkdir(parents=True, exist_ok=True)
+    if SOURCE.exists():
+        return SOURCE
+
+    image = Image.new("RGBA", (420, 500), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(image)
+
+    draw.ellipse((70, 75, 350, 260), fill=(230, 208, 178, 255))
+    draw.ellipse((50, 40, 370, 220), fill=(79, 69, 89, 255))
+    draw.rounded_rectangle((90, 270, 330, 420), radius=40, fill=(118, 106, 133, 255))
+    draw.ellipse((180, 170, 240, 210), fill=(31, 30, 35, 255))
+    draw.ellipse((120, 170, 160, 210), fill=(31, 30, 35, 255))
+    draw.arc((140, 185, 280, 225), start=180, end=0, fill=(31, 30, 35, 255), width=6)
+    draw.line((150, 260, 185, 290), fill=(79, 69, 89, 255), width=12)
+    draw.line((270, 260, 235, 290), fill=(79, 69, 89, 255), width=12)
+
+    image.save(SOURCE, optimize=True)
+    return SOURCE
 
 
 def make_logos() -> dict[str, Image.Image]:
@@ -282,9 +304,9 @@ def render_svg(
         '<svg xmlns="http://www.w3.org/2000/svg" '
         f'width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
         'aria-labelledby="title desc">',
-        "<title id=\"title\">Emmi's live system profile</title>",
-        '<desc id="desc">Animated terminal profile with a dithered portrait and '
-        "Rust, code, and Stellar silhouettes.</desc>",
+        "<title id=\"title\">Bruna's live system profile</title>",
+        '<desc id="desc">Animated terminal profile for Bruna, a software developer from Bolivia, '
+        "highlighting learning, building, and community impact.</desc>",
         "<defs>",
         '<filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">'
         f'<feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="{t["shadow"]}" '
@@ -401,7 +423,7 @@ def render_svg(
             f'stroke="{t["chrome"]}"/>',
             f'<text x="1055" y="111" text-anchor="middle" fill="{t["chrome"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" '
-            'font-weight="700">@emmi-lili</text>',
+            'font-weight="700">@brunitaa</text>',
         ]
     )
 
@@ -443,8 +465,7 @@ def render_svg(
 
 
 def main() -> None:
-    if not SOURCE.exists():
-        raise SystemExit(f"Missing source portrait: {SOURCE}")
+    ensure_source_portrait()
     ASSETS.mkdir(parents=True, exist_ok=True)
     DATA.mkdir(parents=True, exist_ok=True)
     logos = make_logos()
