@@ -1,16 +1,65 @@
-## Hi there 👋
 
-<!--
-**brunitaa/brunitaa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="center">Hi, I'm Your Name</h1>
 
-Here are some ideas to get you started:
+<p align="center">
+  Systems Engineer | Data & Software
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  I build practical solutions and enjoy turning
+  complex problems into useful products.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/YOUR-USERNAME/">
+    LinkedIn
+  </a>
+  ·
+  <a href="https://github.com/brunitaa">
+    GitHub
+  </a>
+</p>
+
+---
+
+## About Me
+
+- Interested in data, software and problem-solving.
+- Currently exploring AI.
+- Always learning and improving through projects.
+
+## Tech Stack
+
+**Languages:** Python, JavaScript, SQL
+
+**Data & BI:** Power BI, Qlik Sense
+
+**Development:** React, Node.js
+
+**Tools:** Git, GitHub, PostgreSQL
+
+## Featured Projects
+
+### Project One
+A short explanation of the problem and the solution.
+
+- **Tech:** Python, SQL
+- **Highlights:** Data processing and analysis
+- [Repository](https://github.com/YOUR-USERNAME/PROJECT-ONE)
+
+### Project Two
+A short explanation of the application and its users.
+
+- **Tech:** React, Node.js
+- **Highlights:** API integration and testing
+- [Repository](https://github.com/YOUR-USERNAME/PROJECT-TWO)
+
+## Community
+
+I enjoy learning, sharing knowledge and
+collaborating with technology communities.
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/bruna-antelo/)
+- [Email](mailto:bruna.antelo01@bg.com.bo)
