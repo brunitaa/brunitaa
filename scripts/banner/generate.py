@@ -31,18 +31,19 @@ TRAVELLER_COUNT = 900
 SEED = 314159
 
 ROWS = [
-    ("Subject", "Bruna"),
-    ("Role", "Systems Engineer · Full Stack Dev"),
-    ("Origin", "Bolivia"),
+    ("Subject", "Bruna Antelo"),
+    ("Role", "Systems Engineer · Full Stack"),
+    ("Origin", "Bolivia · LATAM"),
     ("Education", "Systems Engineering"),
-    ("Status", "Building + Learning + Shipping"),
+    ("Focus", "Human-centered software"),
+    ("Status", "Building + learning + shipping"),
     ("ToolChain", "VS Code · Git · Docker"),
     ("Core.Lang", "Python · JavaScript · C++"),
     ("Core.Frontend", "React · Next.js · Tailwind"),
     ("Core.Backend", "Node · Express · FastAPI"),
     ("Core.Database", "Postgres · MongoDB"),
     ("Core.Infra", "Vercel · Azure · AWS"),
-    ("Grid.Mail", "—"),
+    ("Grid.Mail", "bruna.antelo.dev@gmail.com"),
     ("Grid.LinkedIn", "/in/bruna-antelo"),
     ("Grid.GitHub", "brunitaa"),
     ("Grid.X", "@brunitaa"),
@@ -354,14 +355,14 @@ def render_svg(
         '<circle cx="80" cy="38" r="6" fill="#28C840"/>',
         f'<text x="590" y="43" text-anchor="middle" fill="{t["muted"]}" '
         'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
-        'letter-spacing=".4">profile.sh --live</text>',
+        'letter-spacing=".4">brunitaa / system profile</text>',
         # Left visual frame.
         f'<rect x="35" y="88" width="418" height="472" rx="6" fill="{t["panel2"]}" '
         f'stroke="{t["line"]}"/>',
         f'<path d="M35 124H453" stroke="{t["line"]}"/>',
         f'<text x="49" y="111" fill="{t["chrome"]}" '
         'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
-        'font-weight="700" letter-spacing="1.2">VISUAL.MAP</text>',
+        'font-weight="700" letter-spacing="1.2">BRUNA.MAP</text>',
         f'<text x="438" y="111" text-anchor="end" fill="{t["muted"]}" '
         'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">300×340 / 1-BIT</text>',
         f'<path d="M49 141h12M49 141v12M439 141h-12M439 141v12M49 539h12M49 539v-12'
@@ -422,7 +423,7 @@ def render_svg(
             f'<path d="M474 124H1146" stroke="{t["line"]}"/>',
             f'<text x="490" y="111" fill="{t["chrome"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
-            'font-weight="700" letter-spacing="1.2">SYSTEM.INFO</text>',
+            'font-weight="700" letter-spacing="1.2">BRUNA.ID</text>',
             # LIVE badge and handle pill.
             '<g filter="url(#glow)"><circle cx="915" cy="106" r="4" fill="#FF4D5A"/></g>',
             '<text x="927" y="111" fill="#FF4D5A" '
@@ -480,7 +481,7 @@ def render_svg(
             f'<path d="M490 530H1130" stroke="{t["line"]}"/>',
             f'<text x="491" y="548" fill="{t["accent"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">'
-            "● ALL SYSTEMS NOMINAL</text>",
+            "● BUILD WITH PURPOSE</text>",
             f'<text x="1128" y="548" text-anchor="end" fill="{t["muted"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">'
             "UTC-4 · LATAM NODE</text>",
