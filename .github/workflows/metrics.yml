@@ -13,6 +13,7 @@ permissions:
 
 jobs:
   metrics:
+    if: ${{ secrets.METRICS_TOKEN != '' }}
     runs-on: ubuntu-latest
     steps:
       # ------------------------------------------------------------------ #
@@ -31,3 +32,10 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_indepth: no
           plugin_languages_sections: most-used
+
+  metrics-skip:
+    if: ${{ secrets.METRICS_TOKEN == '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skip metrics without token
+        run: echo "Skipping metrics workflow because METRICS_TOKEN is not configured."

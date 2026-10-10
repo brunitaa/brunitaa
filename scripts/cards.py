@@ -329,14 +329,33 @@ def main(argv=None):
     if not args.projects.exists():
         print(f"no {args.projects}, skipping repo cards")
         return
-    wanted = json.loads(args.projects.read_text(encoding="utf-8"))["projects"]
+
+    project_data = json.loads(args.projects.read_text(encoding="utf-8"))
+    if isinstance(project_data, dict):
+        wanted = project_data.get("projects") or project_data.get("items") or []
+    else:
+        wanted = project_data
+
     by_name = {r["name"].lower(): r for r in repos}
+    by_url = {r["html_url"].rstrip("/").split("/")[-1].lower(): r for r in repos}
 
     for entry in wanted:
-        src = by_name.get(entry["repo"].lower())
-        if not src:
-            print(f"  !! {entry['repo']} not found on the account, skipped")
+        if not isinstance(entry, dict):
             continue
+
+        repo_name = entry.get("repo") or entry.get("name")
+        if not repo_name:
+            url = entry.get("url") or ""
+            repo_name = url.rstrip("/").split("/")[-1]
+        if not repo_name:
+            print("  !! project entry without a repo name, skipped")
+            continue
+
+        src = by_name.get(repo_name.lower()) or by_url.get(repo_name.lower())
+        if not src:
+            print(f"  !! {repo_name} not found on the account, skipped")
+            continue
+
         card = {
             "name": src["name"],
             "description": entry.get("description") or src.get("description"),

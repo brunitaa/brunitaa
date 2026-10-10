@@ -66,8 +66,27 @@ UA = {"User-Agent": "radar.py"}
 
 def from_json(path: Path):
     d = json.loads(path.read_text(encoding="utf-8"))
-    axes = [(a["label"], float(a["value"])) for a in d["axes"]]
-    return d.get("title", "Skill Radar"), axes
+    if isinstance(d, dict):
+        items = d.get("axes") or d.get("skills") or []
+        title = d.get("title", "Skill Radar")
+    else:
+        items = d
+        title = "Skill Radar"
+
+    axes = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        label = item.get("label") or item.get("name")
+        value = item.get("value")
+        if label is None or value is None:
+            continue
+        axes.append((str(label), float(value)))
+
+    if not axes:
+        raise ValueError(f"No valid chart data found in {path}")
+
+    return title, axes
 
 
 def _api(url, token):
