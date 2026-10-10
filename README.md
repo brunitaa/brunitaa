@@ -1,4 +1,4 @@
- <div align="center">
+<div align="center">
 
 <!-- PROFILE BANNER -->
 
@@ -24,23 +24,23 @@
 
 ---
 
-## This is me :)
+## About me
 
-Hi, I'm **Bruna**, a Systems Engineering graduate from Bolivia 🇧🇴 who enjoys turning ideas into practical, useful software.
+Hi, I'm **Bruna**, a Systems Engineering graduate from Bolivia 🇧🇴 with a strong interest in building software that is useful, thoughtful, and impactful.
 
-I like building products that solve real problems, learning by doing, and collaborating with people who care about technology as a way to create impact. My focus is on web, backend, and adaptable solutions that combine user experience with solid engineering.
+I enjoy turning ideas into practical solutions, learning by doing, and collaborating with people who care about technology as a tool for real change. My work focuses on web development, backend systems, and creating products that balance usability with solid engineering.
 
-- 💻 **Software development:** Web, backend, and product-oriented engineering.
-- 🤖 **AI and experimentation:** Exploring how intelligent tools can improve everyday experiences.
-- 🌟 **Women Techmakers Ambassador:** Supporting learning, inclusion, and participation in tech.
-- 🌱 **Community:** Sharing knowledge, growing with others, and building meaningful connections.
-- 💬 Always happy to talk about software, learning, communities, and projects with social value.
+- 💻 **Software engineering:** Web, backend, and product-oriented development.
+- 🤖 **AI & experimentation:** Exploring how intelligent tools can enhance real-world experiences.
+- 🌱 **Growth mindset:** Learning continuously, improving my craft, and shipping meaningful work.
+- 🌟 **Community leadership:** Supporting inclusion, learning, and participation in tech.
+- 💬 **Open to:** software projects, collaboration, and conversations around technology with purpose.
 
 <br>
 
 <div align="center">
 
-## My tech stack
+## Tech stack
 
 <img src="https://skillicons.dev/icons?i=js,python,cpp,react,reactnative,nodejs,express,html,css,tailwind,postgres,mongodb,git,github,vscode&perline=5" alt="Technology stack"/>
 
@@ -48,7 +48,7 @@ I like building products that solve real problems, learning by doing, and collab
 
 ---
 
-## Projects I’ve built
+## Selected projects
 
 <div align="center">
 
@@ -62,7 +62,7 @@ I like building products that solve real problems, learning by doing, and collab
 
 **About the project**
 
-Backend-focused project designed to organize business logic, improve maintainability, and support a cleaner flow of data in a real application context.
+Backend-focused project designed to improve maintainability, structure application logic, and support cleaner data flows in a real use case.
 
 **Technologies:** Python, backend APIs, databases, and service architecture.
 
@@ -75,9 +75,9 @@ Backend-focused project designed to organize business logic, improve maintainabi
 
 **About the project**
 
-A project aimed at improving discovery and access to relevant locations through a practical and user-centered digital experience.
+A practical project centered on discovery and user experience, helping people access relevant information in a clearer and more useful way.
 
-**Technologies:** JavaScript, web interfaces, and application logic.
+**Technologies:** JavaScript, frontend development, and application logic.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ A project aimed at improving discovery and access to relevant locations through 
 
 **About the project**
 
-A web application focused on solving a common everyday problem by making it easier to find and evaluate available parking options.
+A web application focused on making everyday decisions easier by improving access to useful parking information.
 
 **Technologies:** HTML, CSS, JavaScript, and frontend development.
 
@@ -103,7 +103,7 @@ A web application focused on solving a common everyday problem by making it easi
 
 **About the project**
 
-A personal project exploring web development, interface design, and information flows in a structured digital system.
+A project focused on web interfaces, structured information flow, and building a user-friendly digital experience.
 
 **Technologies:** Frontend development, web architecture, and UI design.
 
@@ -121,13 +121,13 @@ A personal project exploring web development, interface design, and information 
 - **Microsoft User Group Bolivia** — Technology community
 - **PyLadies Santa Cruz de la Sierra** — Python community
 
-I believe technology communities are one of the best places to learn, collaborate, and help others grow. I’m interested in creating spaces where people can connect, share ideas, and build together with confidence.
+I believe communities are one of the best places to grow, learn, and build with purpose. I enjoy creating spaces where people can connect, share knowledge, and support each other.
 
 ---
 
 <div align="center">
 
-## A few GitHub stats
+## GitHub stats
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=brunitaa&show_icons=true&hide_border=true&theme=transparent&title_color=AA9BEF&icon_color=AA9BEF" alt="GitHub statistics"/>
 
