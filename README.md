@@ -1,5 +1,5 @@
 
-<h1 align="center">Hi, I'm Your Name</h1>
+<h1 align="center">Hi, I'm Bruna Antelo</h1>
 
 <p align="center">
   Systems Engineer | Data & Software
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-USERNAME/">
+  <a href="https://www.linkedin.com/in/bruna-antelo/">
     LinkedIn
   </a>
   ·
