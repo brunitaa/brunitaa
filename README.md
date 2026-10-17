@@ -19,6 +19,13 @@
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
 
+<br><br>
+
+<img src="https://img.shields.io/badge/Focus-Backend%20%26%20APIs-0A66C2?style=flat-square" alt="Backend and APIs" />
+<img src="https://img.shields.io/badge/Stack-Python%20%7C%20JavaScript-4EAA25?style=flat-square" alt="Python and JavaScript" />
+<img src="https://img.shields.io/badge/Products-UX%20%7C%20Web-FF6B6B?style=flat-square" alt="UX and web" />
+<img src="https://img.shields.io/badge/Engineering-Problem%20Solving-8A63D2?style=flat-square" alt="Engineering problem solving" />
+
 </div>
 
 ---
@@ -33,6 +40,24 @@ My focus is on building reliable systems and digital experiences that balance te
 - **Web products:** applications that are not only functional but also intuitive and useful.
 - **Problem solving:** translating needs into clear workflows and effective solutions.
 - **Continuous learning:** improving through projects, experimentation, and thoughtful iteration.
+
+---
+
+## Metrics
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Backend-API%20Design-0A66C2?style=for-the-badge" alt="Backend and API design" />
+<img src="https://img.shields.io/badge/Frontend-UX%20Driven-FF6B6B?style=for-the-badge" alt="UX driven frontend" />
+<img src="https://img.shields.io/badge/Database-PostgreSQL%20%2B%20MongoDB-4EAA25?style=for-the-badge" alt="PostgreSQL and MongoDB" />
+<img src="https://img.shields.io/badge/Delivery-Product%20Mindset-8A63D2?style=for-the-badge" alt="Product mindset" />
+
+</div>
+
+- **Core engineering:** Python, JavaScript, TypeScript, React, Node.js, Express, FastAPI
+- **Data & systems:** PostgreSQL, MongoDB, API design, maintainable architecture
+- **Product mindset:** user-centered thinking, practical usability, clear workflows
+- **Approach:** building solutions that are useful, scalable, and understandable
 
 ---
 
