@@ -28,129 +28,79 @@
 
 ---
 
-## About me
+## Hello, I'm Bruna
 
-Hi, I'm **Bruna** — a Systems Engineering graduate from Bolivia 🇧🇴 who loves exploring ideas, building things, and discovering how technology can make a real difference in people's lives.
+I'm a Systems Engineer from Bolivia 🇧🇴 who enjoys turning real problems into software that is useful, maintainable, and built with intention.
 
-For me, software development is more than writing code. It's about understanding the people behind a problem, asking the right questions, and turning ideas into solutions that are actually useful. That's what motivates me to keep learning, experiment with new technologies, and build projects with purpose.
+My work sits between engineering and product thinking: I like understanding the user, designing a solid system, and building the experience so it actually solves a need—not just looks good on paper.
 
-- 💻 **Building:** Web applications, backend systems, and ideas that turn into real projects.
-- 💜 **Purpose-driven tech:** Especially projects that address overlooked problems and make technology more accessible.
-- 🌱 **Always curious:** Learning by doing, exploring new tools, and getting a little better with every project.
-- 🤝 **Community & connection:** Sharing knowledge, collaborating, and helping create spaces where more people feel they belong in tech.
-- ✨ **Beyond the code:** I care about the _why_ behind what we build just as much as the _how_.
+- 🧠 **Systems thinking:** I design from the problem, not only from the code.
+- ⚙️ **Backend & APIs:** I enjoy creating clear architecture, resilient logic, and scalable services.
+- 🎨 **Product-minded frontend:** I care about usability, clarity, and user experience.
+- 🌍 **Context-aware engineering:** I build with people, real use cases, and long-term value in mind.
+- 📚 **Curiosity first:** I keep learning through projects, experimentation, and shipping meaningful work.
 
-I believe the best things happen when curiosity meets empathy — and that's the kind of developer, teammate, and community builder I'm working to become.
+I don't see software as only code. I see it as a way to design better experiences, remove friction, and create tools that make life easier.
 
 <br>
 
 <div align="center">
 
-## Tech stack
+## What I build
 
-<img src="https://skillicons.dev/icons?i=js,python,cpp,react,reactnative,nodejs,express,html,css,tailwind,postgres,mongodb,git,github,vscode&perline=5" alt="Technology stack">
-
-</div>
-
----
-
-## Professional snapshot
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
-  <img src="assets/card-stats-dark.svg" alt="Bruna stats card" width="560">
-</picture>
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,react,nodejs,express,fastapi,postgresql,mongodb,tailwind,git,github,vscode&perline=6" alt="Technology stack">
 
 </div>
 
 ---
 
-## Skills radar
+## Engineering focus
 
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="50%">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/radar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
-  <img src="assets/radar-dark.svg" alt="Skill radar" width="420">
-</picture>
-</td>
-<td align="center" width="50%">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/radar-langs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
-  <img src="assets/radar-langs-dark.svg" alt="Language radar" width="420">
-</picture>
-</td>
-</tr>
-</table>
-
-</div>
+- **Backend systems:** clean services, structured logic, API design, persistence, and maintainability.
+- **Web products:** practical interfaces that balance usability, performance, and product goals.
+- **Problem-solving:** turning ideas into real workflows, internal tools, and user-facing solutions.
+- **Leadership & community:** sharing knowledge, helping others grow, and building healthier engineering culture.
 
 ---
 
 ## Featured projects
 
-<div align="center">
+### MAGEO
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-MAGEO-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-MAGEO-light.svg">
-  <img src="assets/card-MAGEO-dark.svg" alt="MAGEO project card" width="100%">
-</picture>
-</td>
-<td width="50%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-CAA-Backend-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-CAA-Backend-light.svg">
-  <img src="assets/card-CAA-Backend-dark.svg" alt="CAA-Backend project card" width="100%">
-</picture>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-ParkFinderWEB-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-ParkFinderWEB-light.svg">
-  <img src="assets/card-ParkFinderWEB-dark.svg" alt="ParkFinderWEB project card" width="100%">
-</picture>
-</td>
-<td width="50%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-DeepGrid-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-DeepGrid-light.svg">
-  <img src="assets/card-DeepGrid-dark.svg" alt="DeepGrid project card" width="100%">
-</picture>
-</td>
-</tr>
-</table>
+A product-oriented project focused on helping people discover relevant places more intuitively through a cleaner digital experience.
 
-</div>
+- JavaScript • React • Node.js • UX-focused web app
+- Built around practical discovery and user experience
+
+### CAA-Backend
+
+A backend-focused project centered on structured logic, maintainable flows, and service architecture for real-world use.
+
+- Python • APIs • PostgreSQL • backend architecture
+- Emphasis on clarity, scalability, and clean engineering decisions
+
+### ParkFinderWEB
+
+A web application designed to simplify everyday decision-making by making parking information more accessible and easier to understand.
+
+- HTML • CSS • JavaScript • frontend product design
+- Practical utility built to solve a specific real-life problem
 
 ---
 
-## Communities & leadership
+## Community & impact
 
-- **Women Techmakers** — Ambassador
-- **Microsoft User Group Bolivia** — Technology community
-- **PyLadies Santa Cruz de la Sierra** — Python community
+- **Women Techmakers** — ambassador and community builder
+- **Microsoft User Group Bolivia** — technology community involvement
+- **PyLadies Santa Cruz de la Sierra** — support for more women in Python and tech
 
-I believe communities are one of the best places to grow, learn, and build with purpose. I enjoy creating spaces where people can connect, share knowledge, support each other, and make technology more accessible.
+I care deeply about representation, access, and helping more people feel welcome in technology. Good engineering is not only technical — it's also collaborative, inclusive, and human.
 
 ---
 
 <div align="center">
 
-### Let's connect
+### Let’s connect
 
 <a href="https://www.linkedin.com/in/bruna-antelo/">
   <img src="https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn">
@@ -158,6 +108,6 @@ I believe communities are one of the best places to grow, learn, and build with 
 
 <br><br>
 
-<sub>Built with curiosity, learning, and a love for technology · @brunitaa</sub>
+<sub>Engineering with purpose · building products with people in mind · @brunitaa</sub>
 
 </div>
