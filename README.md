@@ -1,12 +1,11 @@
- <div align="center">
+<div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.v9.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.v9.svg">
-  <img src="assets/banner-dark.v9.svg" alt="Bruna profile banner" width="900">
-</picture>
+<h1>Bruna Antelo</h1>
+<h3>Systems Engineer • Backend & Product-minded Software Developer</h3>
 
-<br>
+<p>
+  Bolivia 🇧🇴 · Building practical software, resilient systems, and thoughtful digital experiences.
+</p>
 
 <a href="https://www.linkedin.com/in/bruna-antelo/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -20,81 +19,77 @@
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
 
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=brunitaa&style=flat&color=aa9bef&label=profile+views" alt="Profile views">
-
 </div>
 
 ---
 
-## Hello, I'm Bruna
+## About me
 
-I'm a Systems Engineer from Bolivia 🇧🇴 who enjoys turning real problems into software that is useful, maintainable, and built with intention.
+I’m a Systems Engineer from Bolivia who enjoys building software that solves real problems with clarity, structure, and purpose. My work sits between engineering and product thinking: I like understanding the underlying need, designing a solid system, and creating user-facing experiences that are useful and easy to trust.
 
-My work sits between engineering and product thinking: I like understanding the user, designing a solid system, and building the experience so it actually solves a need—not just looks good on paper.
+I care about clean architecture, practical solutions, and long-term value. I’m motivated by projects that improve everyday experiences, reduce friction, and turn ideas into systems people can actually use.
 
-- 🧠 **Systems thinking:** I design from the problem, not only from the code.
-- ⚙️ **Backend & APIs:** I enjoy creating clear architecture, resilient logic, and scalable services.
-- 🎨 **Product-minded frontend:** I care about usability, clarity, and user experience.
-- 🌍 **Context-aware engineering:** I build with people, real use cases, and long-term value in mind.
-- 📚 **Curiosity first:** I keep learning through projects, experimentation, and shipping meaningful work.
+- 🧠 **Systems-first mindset:** solve the problem before writing the code.
+- ⚙️ **Backend & API design:** scalable services, maintainable logic, and structured data flows.
+- 🎨 **Product-aware frontend:** usability, clarity, and experience matter as much as functionality.
+- 🌍 **Context-aware engineering:** I build with users, real-world constraints, and practical impact in mind.
+- 📚 **Continuous learning:** every project is an opportunity to improve, experiment, and grow.
 
-I don't see software as only code. I see it as a way to design better experiences, remove friction, and create tools that make life easier.
+---
 
-<br>
+## Core stack
 
 <div align="center">
-
-## What I build
 
 <img src="https://skillicons.dev/icons?i=python,javascript,typescript,react,nodejs,express,fastapi,postgresql,mongodb,tailwind,git,github,vscode&perline=6" alt="Technology stack">
 
 </div>
 
+**Main strengths:** Python, JavaScript, TypeScript, React, Node.js, Express, FastAPI, PostgreSQL, MongoDB, Git, REST APIs, UX-focused web products.
+
 ---
 
 ## Engineering focus
 
-- **Backend systems:** clean services, structured logic, API design, persistence, and maintainability.
-- **Web products:** practical interfaces that balance usability, performance, and product goals.
-- **Problem-solving:** turning ideas into real workflows, internal tools, and user-facing solutions.
-- **Leadership & community:** sharing knowledge, helping others grow, and building healthier engineering culture.
+- **Backend systems:** service design, API patterns, data modeling, maintainability.
+- **Web applications:** product-oriented interfaces that balance experience and performance.
+- **Problem solving:** turning needs into clear workflows and useful digital tools.
+- **Collaboration:** sharing knowledge, supporting others, and building healthy engineering culture.
 
 ---
 
 ## Featured projects
 
-### MAGEO
+### [MAGEO](https://github.com/brunitaa/MAGEO)
 
-A product-oriented project focused on helping people discover relevant places more intuitively through a cleaner digital experience.
+Product-focused project designed to help people discover relevant places through a cleaner and more intuitive digital experience.
 
-- JavaScript • React • Node.js • UX-focused web app
-- Built around practical discovery and user experience
+- JavaScript • React • Node.js • UX-centered web app
+- Built around discovery, usability, and practical value for the end user
 
-### CAA-Backend
+### [CAA-Backend](https://github.com/brunitaa/CAA-Backend)
 
-A backend-focused project centered on structured logic, maintainable flows, and service architecture for real-world use.
+Backend project centered on clear architecture, maintainable flows, and robust service logic for real-world use.
 
 - Python • APIs • PostgreSQL • backend architecture
-- Emphasis on clarity, scalability, and clean engineering decisions
+- Focus on structure, scalability, and clean engineering decisions
 
-### ParkFinderWEB
+### [ParkFinderWEB](https://github.com/brunitaa/ParkFinderWEB)
 
-A web application designed to simplify everyday decision-making by making parking information more accessible and easier to understand.
+Web application created to simplify everyday decision-making by making parking information more accessible and easier to use.
 
 - HTML • CSS • JavaScript • frontend product design
-- Practical utility built to solve a specific real-life problem
+- Practical utility aimed at solving a tangible real-life problem
 
 ---
 
 ## Community & impact
 
-- **Women Techmakers** — ambassador and community builder
+- **Women Techmakers** — community ambassador
 - **Microsoft User Group Bolivia** — technology community involvement
-- **PyLadies Santa Cruz de la Sierra** — support for more women in Python and tech
+- **PyLadies Santa Cruz de la Sierra** — support for women in Python and tech
 
-I care deeply about representation, access, and helping more people feel welcome in technology. Good engineering is not only technical — it's also collaborative, inclusive, and human.
+I believe engineering is not only technical; it is also collaborative, inclusive, and human. I care about creating spaces where more people feel welcome in technology and can grow with confidence.
 
 ---
 
@@ -108,6 +103,6 @@ I care deeply about representation, access, and helping more people feel welcome
 
 <br><br>
 
-<sub>Engineering with purpose · building products with people in mind · @brunitaa</sub>
+<sub>Building useful software with purpose · @brunitaa</sub>
 
 </div>
