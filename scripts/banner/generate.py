@@ -355,14 +355,14 @@ def render_svg(
         '<circle cx="80" cy="38" r="6" fill="#28C840"/>',
         f'<text x="590" y="43" text-anchor="middle" fill="{t["muted"]}" '
         'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
-        'letter-spacing=".4">brunitaa / system profile</text>',
+        'letter-spacing=".4">brunitaa // systems • software • people</text>',
         # Left visual frame.
         f'<rect x="35" y="88" width="418" height="472" rx="6" fill="{t["panel2"]}" '
         f'stroke="{t["line"]}"/>',
         f'<path d="M35 124H453" stroke="{t["line"]}"/>',
         f'<text x="49" y="111" fill="{t["chrome"]}" '
         'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
-        'font-weight="700" letter-spacing="1.2">BRUNA.MAP</text>',
+        'font-weight="700" letter-spacing="1.2">PORTRAIT / SIGNAL</text>',
         f'<text x="438" y="111" text-anchor="end" fill="{t["muted"]}" '
         'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">300×340 / 1-BIT</text>',
         f'<path d="M49 141h12M49 141v12M439 141h-12M439 141v12M49 539h12M49 539v-12'
@@ -423,7 +423,7 @@ def render_svg(
             f'<path d="M474 124H1146" stroke="{t["line"]}"/>',
             f'<text x="490" y="111" fill="{t["chrome"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
-            'font-weight="700" letter-spacing="1.2">BRUNA.ID</text>',
+            'font-weight="700" letter-spacing="1.2">BRUNA / ID</text>',
             # LIVE badge and handle pill.
             '<g filter="url(#glow)"><circle cx="915" cy="106" r="4" fill="#FF4D5A"/></g>',
             '<text x="927" y="111" fill="#FF4D5A" '
@@ -434,25 +434,52 @@ def render_svg(
             f'<text x="1055" y="111" text-anchor="middle" fill="{t["chrome"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" '
             'font-weight="700">@brunitaa</text>',
+            f'<text x="490" y="170" fill="{t["text"]}" '
+            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="52" '
+            'font-weight="800" letter-spacing="1.4">BRUNA</text>',
+            f'<text x="490" y="220" fill="{t["chrome"]}" '
+            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="48" '
+            'font-weight="800" letter-spacing="1.4">ANTELO</text>',
+            f'<text x="490" y="258" fill="{t["text"]}" '
+            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="22" '
+            'font-weight="700" letter-spacing="1.6">SYSTEMS ENGINEER // FULL STACK</text>',
+            f'<text x="490" y="292" fill="{t["muted"]}" '
+            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
+            'font-weight="600" letter-spacing="1.6">LATAM • BOLIVIA / SOFTWARE • PRODUCT • PEOPLE</text>',
+            f'<rect x="490" y="310" width="85" height="24" rx="12" fill="{t["chrome"]}" opacity=".12" stroke="{t["chrome"]}"/>'
+            f'<text x="532" y="327" text-anchor="middle" fill="{t["chrome"]}" '
+            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11" '
+            'font-weight="700">BUILD</text>',
+            f'<rect x="585" y="310" width="100" height="24" rx="12" fill="{t["chrome"]}" opacity=".12" stroke="{t["chrome"]}"/>'
+            f'<text x="635" y="327" text-anchor="middle" fill="{t["chrome"]}" '
+            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11" '
+            'font-weight="700">LEARN</text>',
+            f'<rect x="695" y="310" width="110" height="24" rx="12" fill="{t["chrome"]}" opacity=".12" stroke="{t["chrome"]}"/>'
+            f'<text x="750" y="327" text-anchor="middle" fill="{t["chrome"]}" '
+            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11" '
+            'font-weight="700">SHIP</text>',
         ]
     )
 
-    rotating_phrases = [
-        "BRUNA ANTELO",
-        "SYSTEMS ENGINEER",
-        "FULL STACK DEV",
-        "BUILDING + LEARNING",
-        "LATAM • BOLIVIA",
+    large_columns = [
+        ("Focus", "Human-centered software"),
+        ("Stack", "Python • JS • React"),
+        ("Infra", "Azure • AWS • Vercel"),
     ]
-    phrase_y = 155.0
-    for phrase in rotating_phrases:
+    for idx, (label, value) in enumerate(large_columns):
+        y = 355 + idx * 42
         parts.append(
-            f'<text x="490" y="{num(phrase_y)}" fill="{t["text"]}" '
-            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="24" '
-            'font-weight="700" letter-spacing=".8" opacity="1">'
-            f'{html.escape(phrase)}</text>'
+            f'<text x="490" y="{num(y)}" fill="{t["muted"]}" '
+            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" '
+            'font-weight="600">'
+            f'{html.escape(label)}</text>'
         )
-        phrase_y += 26
+        parts.append(
+            f'<text x="620" y="{num(y)}" fill="{t["text"]}" '
+            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="18" '
+            'font-weight="700">'
+            f'{html.escape(value)}</text>'
+        )
 
     value_right = 1127.0
     row_y = 153.0
