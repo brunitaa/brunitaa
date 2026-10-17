@@ -4,7 +4,7 @@
 <h3>Systems Engineer • Backend Developer • Product-minded Builder</h3>
 
 <p>
-  Bolivia 🇧🇴 · I design and build software that solves real problems with structure, clarity, and purpose.
+  Bolivia 🇧🇴 · Building practical software with structure, clarity, and product thinking.
 </p>
 
 <a href="https://www.linkedin.com/in/bruna-antelo/">
@@ -32,14 +32,12 @@
 
 ## About
 
-Systems Engineer with a strong interest in backend architecture, product-oriented development, and building software that has practical impact. I enjoy working across the full problem-solving cycle: understanding the need, shaping the solution, and delivering something useful, maintainable, and user-centered.
+Systems Engineer focused on backend architecture, practical web products, and software with a clear real-world purpose. I like solving the problem at its root and building solutions that are useful, maintainable, and easy to trust.
 
-My focus is on building reliable systems and digital experiences that balance technical quality with real-world usability.
-
-- **Backend & APIs:** system design, service logic, structured data flows, maintainability.
-- **Web products:** applications that are not only functional but also intuitive and useful.
-- **Problem solving:** translating needs into clear workflows and effective solutions.
-- **Continuous learning:** improving through projects, experimentation, and thoughtful iteration.
+- **Backend & APIs:** architecture, service logic, structured data flows, maintainability.
+- **Product-minded development:** interfaces that are useful, clean, and intentional.
+- **Problem solving:** translating needs into effective digital workflows.
+- **Continuous improvement:** learning by building and refining through real projects.
 
 ---
 
@@ -54,10 +52,10 @@ My focus is on building reliable systems and digital experiences that balance te
 
 </div>
 
-- **Core engineering:** Python, JavaScript, TypeScript, React, Node.js, Express, FastAPI
-- **Data & systems:** PostgreSQL, MongoDB, API design, maintainable architecture
-- **Product mindset:** user-centered thinking, practical usability, clear workflows
-- **Approach:** building solutions that are useful, scalable, and understandable
+- **Core stack:** Python, JavaScript, TypeScript, React, Node.js, Express, FastAPI
+- **Data layer:** PostgreSQL, MongoDB, API design, maintainable architecture
+- **Product lens:** usability, clarity, and practical value
+- **Engineering style:** thoughtful, scalable, problem-first implementation
 
 ---
 
@@ -104,7 +102,7 @@ Web solution designed to simplify everyday decision-making by making parking inf
 - **Microsoft User Group Bolivia** — technology community involvement
 - **PyLadies Santa Cruz de la Sierra** — support for women in Python and tech
 
-I care about building technology in a way that is inclusive, collaborative, and useful beyond the code itself.
+I value engineering that is not only technical, but also collaborative, inclusive, and useful beyond the code itself.
 
 ---
 
