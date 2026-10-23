@@ -74,31 +74,44 @@ I am a Systems Engineer and Data Analyst who enjoys turning data into clear info
 
 <div align="center">
 
-<a href="https://github.com/brunitaa/MAGEO">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-MAGEO-dark.svg">
-    <img src="assets/card-MAGEO-light.svg" width="420" alt="MAGEO repository card">
-  </picture>
-</a>
-<a href="https://github.com/brunitaa/CAA-Backend">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-CAA-Backend-dark.svg">
-    <img src="assets/card-CAA-Backend-light.svg" width="420" alt="CAA-Backend repository card">
-  </picture>
-</a>
-<br>
-<a href="https://github.com/brunitaa/CAA-ML">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-CAA-ML-dark.svg">
-    <img src="assets/card-CAA-ML-light.svg" width="420" alt="CAA-ML repository card">
-  </picture>
-</a>
-<a href="https://github.com/brunitaa/ECOO">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-ECOO-dark.svg">
-    <img src="assets/card-ECOO-light.svg" width="420" alt="ECOO repository card">
-  </picture>
-</a>
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://github.com/brunitaa/MAGEO">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-MAGEO-dark.svg">
+          <img src="assets/card-MAGEO-light.svg" width="420" alt="MAGEO repository card">
+        </picture>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/brunitaa/CAA-Backend">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-CAA-Backend-dark.svg">
+          <img src="assets/card-CAA-Backend-light.svg" width="420" alt="CAA-Backend repository card">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/brunitaa/CAA-ML">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-CAA-ML-dark.svg">
+          <img src="assets/card-CAA-ML-light.svg" width="420" alt="CAA-ML repository card">
+        </picture>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/brunitaa/ECOO">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-ECOO-dark.svg">
+          <img src="assets/card-ECOO-light.svg" width="420" alt="ECOO repository card">
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
