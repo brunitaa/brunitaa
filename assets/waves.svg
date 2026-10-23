@@ -34,7 +34,11 @@
         <animateTransform attributeName="transform" type="translate" from="0 0" to="-800 0" dur="7s" repeatCount="indefinite" />
       </path>
     </g>
-    <path d="M-400 42 C-300 -8 -100 -8 0 42 S300 92 400 42 S700 -8 800 42 S1100 92 1200 42 S1500 -8 1600 42" stroke="#A5D6FF" stroke-opacity=".9" stroke-width="3" />
-    <path d="M-400 70 C-300 26 -100 26 0 70 S300 114 400 70 S700 26 800 70 S1100 114 1200 70 S1500 26 1600 70" stroke="#79C0FF" stroke-opacity=".85" stroke-width="2.5" />
+    <path d="M-400 42 C-300 -8 -100 -8 0 42 S300 92 400 42 S700 -8 800 42 S1100 92 1200 42 S1500 -8 1600 42" stroke="#A5D6FF" stroke-opacity=".9" stroke-width="3">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-800 0" dur="12s" repeatCount="indefinite" />
+    </path>
+    <path d="M-400 70 C-300 26 -100 26 0 70 S300 114 400 70 S700 26 800 70 S1100 114 1200 70 S1500 26 1600 70" stroke="#79C0FF" stroke-opacity=".85" stroke-width="2.5">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-800 0" dur="9s" repeatCount="indefinite" />
+    </path>
   </g>
 </svg>
