@@ -18,23 +18,23 @@
       <stop offset="1" stop-color="#0B2F63" stop-opacity=".88" />
     </linearGradient>
   </defs>
-  <g clip-path="url(#wave-clip)">
-    <g>
-      <path d="M0 52 C100 4 300 4 400 52 S700 100 800 52 S1100 4 1200 52 S1500 100 1600 52 S1900 4 2000 52 V130 H0 Z" fill="url(#ocean-back)">
+  <g clip-path="url(#wave-clip)" fill="none" stroke-linecap="round">
+    <g opacity=".95">
+      <path d="M-400 50 C-300 0 -100 0 0 50 S300 100 400 50 S700 0 800 50 S1100 100 1200 50 S1500 0 1600 50" stroke="#58A6FF" stroke-width="32">
         <animateTransform attributeName="transform" type="translate" from="0 0" to="-800 0" dur="12s" repeatCount="indefinite" />
       </path>
     </g>
-    <g>
-      <path d="M0 76 C100 34 300 34 400 76 S700 118 800 76 S1100 34 1200 76 S1500 118 1600 76 S1900 34 2000 76 V130 H0 Z" fill="url(#ocean-mid)">
+    <g opacity=".95">
+      <path d="M-400 78 C-300 34 -100 34 0 78 S300 122 400 78 S700 34 800 78 S1100 122 1200 78 S1500 34 1600 78" stroke="#1F6FEB" stroke-width="25">
         <animateTransform attributeName="transform" type="translate" from="0 0" to="-800 0" dur="9s" repeatCount="indefinite" />
       </path>
     </g>
-    <g>
-      <path d="M0 98 C100 62 300 62 400 98 S700 134 800 98 S1100 62 1200 98 S1500 134 1600 98 S1900 62 2000 98 V130 H0 Z" fill="url(#ocean-front)">
+    <g opacity=".98">
+      <path d="M-400 105 C-300 69 -100 69 0 105 S300 141 400 105 S700 69 800 105 S1100 141 1200 105 S1500 69 1600 105" stroke="#2F81F7" stroke-width="18">
         <animateTransform attributeName="transform" type="translate" from="0 0" to="-800 0" dur="7s" repeatCount="indefinite" />
       </path>
     </g>
-    <path d="M0 52 C100 4 300 4 400 52 S700 100 800 52 S1100 4 1200 52" fill="none" stroke="#A5D6FF" stroke-opacity=".65" stroke-width="2" />
-    <path d="M0 76 C100 34 300 34 400 76 S700 118 800 76 S1100 34 1200 76" fill="none" stroke="#79C0FF" stroke-opacity=".5" stroke-width="1.5" />
+    <path d="M-400 42 C-300 -8 -100 -8 0 42 S300 92 400 42 S700 -8 800 42 S1100 92 1200 42 S1500 -8 1600 42" stroke="#A5D6FF" stroke-opacity=".9" stroke-width="3" />
+    <path d="M-400 70 C-300 26 -100 26 0 70 S300 114 400 70 S700 26 800 70 S1100 114 1200 70 S1500 26 1600 70" stroke="#79C0FF" stroke-opacity=".85" stroke-width="2.5" />
   </g>
 </svg>
