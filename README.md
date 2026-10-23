@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/waves.svg" width="100%" alt="Animated blue waves">
+
 <h1>Bruna Antelo</h1>
 <h3>Systems Engineer • Data Analyst • AI &amp; Programming Mentor</h3>
 
@@ -72,10 +74,31 @@ I am a Systems Engineer and Data Analyst who enjoys turning data into clear info
 
 <div align="center">
 
-<a href="https://github.com/brunitaa/MAGEO"><img src="https://img.shields.io/badge/MAGEO-0A66C2?style=flat-square&logo=github&logoColor=white" alt="MAGEO"></a>
-<a href="https://github.com/brunitaa/CAA-Backend"><img src="https://img.shields.io/badge/CAA--BACKEND-1F6FEB?style=flat-square&logo=github&logoColor=white" alt="CAA-BACKEND"></a>
-<a href="https://github.com/brunitaa/CAA-ML"><img src="https://img.shields.io/badge/CAA--ML-2F81F7?style=flat-square&logo=github&logoColor=white" alt="CAA-ML"></a>
-<a href="https://github.com/brunitaa/ECOO"><img src="https://img.shields.io/badge/ECOO-58A6FF?style=flat-square&logo=github&logoColor=white" alt="ECOO"></a>
+<a href="https://github.com/brunitaa/MAGEO">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-MAGEO-dark.svg">
+    <img src="assets/card-MAGEO-light.svg" width="420" alt="MAGEO repository card">
+  </picture>
+</a>
+<a href="https://github.com/brunitaa/CAA-Backend">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-CAA-Backend-dark.svg">
+    <img src="assets/card-CAA-Backend-light.svg" width="420" alt="CAA-Backend repository card">
+  </picture>
+</a>
+<br>
+<a href="https://github.com/brunitaa/CAA-ML">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-CAA-ML-dark.svg">
+    <img src="assets/card-CAA-ML-light.svg" width="420" alt="CAA-ML repository card">
+  </picture>
+</a>
+<a href="https://github.com/brunitaa/ECOO">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-ECOO-dark.svg">
+    <img src="assets/card-ECOO-light.svg" width="420" alt="ECOO repository card">
+  </picture>
+</a>
 
 </div>
 

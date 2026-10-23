@@ -13,10 +13,13 @@
   },
   {
     "name": "CAA-ML",
-    "url": "https://github.com/brunitaa/CAA-ML"
+    "url": "https://github.com/brunitaa/CAA-ML",
+    "description": "Machine learning prototype that predicts augmentative communication pictograms from a phrase, with a PyTorch model and FastAPI service.",
+    "technologies": ["Python", "PyTorch", "FastAPI", "Machine Learning"]
   },
   {
     "name": "ECOO",
-    "url": "https://github.com/brunitaa/ECOO"
+    "url": "https://github.com/brunitaa/ECOO",
+    "description": "Explore the repository and its source code on GitHub."
   }
 ]

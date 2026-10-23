@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" role="img" aria-labelledby="title desc">
+  <title id="title">Blue waves</title>
+  <desc id="desc">Soft blue waves moving above Bruna Antelo's name.</desc>
+  <defs>
+    <clipPath id="wave-clip">
+      <rect width="1000" height="100" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#wave-clip)" fill="none">
+    <g opacity=".35">
+      <path d="M0 42 C100 8 300 8 400 42 S700 76 800 42 S1100 8 1200 42 S1500 76 1600 42 S1900 8 2000 42" stroke="#58A6FF" stroke-width="2">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-800 0" dur="12s" repeatCount="indefinite" />
+      </path>
+    </g>
+    <g opacity=".55">
+      <path d="M0 54 C100 30 300 30 400 54 S700 78 800 54 S1100 30 1200 54 S1500 78 1600 54 S1900 30 2000 54" stroke="#1F6FEB" stroke-width="3">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-800 0" dur="9s" repeatCount="indefinite" />
+      </path>
+    </g>
+    <g opacity=".8">
+      <path d="M0 66 C100 48 300 48 400 66 S700 84 800 66 S1100 48 1200 66 S1500 84 1600 66 S1900 48 2000 66" stroke="#2F81F7" stroke-width="2">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-800 0" dur="7s" repeatCount="indefinite" />
+      </path>
+    </g>
+  </g>
+</svg>
