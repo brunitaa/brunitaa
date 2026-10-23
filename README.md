@@ -1,10 +1,10 @@
 <div align="center">
 
 <h1>Bruna Antelo</h1>
-<h3>Systems Engineer • Backend Developer • Product-minded Builder</h3>
+<h3>Systems Engineer • Data Analyst • AI &amp; Programming Mentor</h3>
 
 <p>
-  Bolivia 🇧🇴 · Building practical software with structure, clarity, and product thinking.
+  Bolivia 🇧🇴 · Turning data into clear insights and useful solutions.
 </p>
 
 <a href="https://www.linkedin.com/in/bruna-antelo/">
@@ -12,19 +12,18 @@
 </a>
 &nbsp;
 <a href="https://github.com/brunitaa">
-  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=AA9BEF" alt="GitHub">
+  <img src="https://img.shields.io/badge/GitHub-1F6FEB?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </a>
 &nbsp;
 <a href="mailto:bruna.antelo.dev@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  <img src="https://img.shields.io/badge/Email-2F81F7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Focus-Backend%20%26%20APIs-0A66C2?style=flat-square" alt="Backend and APIs" />
-<img src="https://img.shields.io/badge/Stack-Python%20%7C%20JavaScript-4EAA25?style=flat-square" alt="Python and JavaScript" />
-<img src="https://img.shields.io/badge/Products-UX%20%7C%20Web-FF6B6B?style=flat-square" alt="UX and web" />
-<img src="https://img.shields.io/badge/Engineering-Problem%20Solving-8A63D2?style=flat-square" alt="Engineering problem solving" />
+<img src="https://img.shields.io/badge/Focus-Data%20Analytics-0A66C2?style=flat-square" alt="Data analytics" />
+<img src="https://img.shields.io/badge/Business%20Intelligence-Qlik%20%7C%20Power%20BI-1F6FEB?style=flat-square" alt="Business intelligence with Qlik and Power BI" />
+<img src="https://img.shields.io/badge/Interests-Programming%20%7C%20AI-2F81F7?style=flat-square" alt="Programming and AI" />
 
 </div>
 
@@ -32,12 +31,12 @@
 
 ## About
 
-Systems Engineer focused on backend architecture, practical web products, and software with a clear real-world purpose. I like solving the problem at its root and building solutions that are useful, maintainable, and easy to trust.
+I am a Systems Engineer and Data Analyst who enjoys turning data into clear information that supports better decisions. I am interested in business intelligence, practical technology, and helping others learn programming and artificial intelligence.
 
-- **Backend & APIs:** architecture, service logic, structured data flows, maintainability.
-- **Product-minded development:** interfaces that are useful, clean, and intentional.
-- **Problem solving:** translating needs into effective digital workflows.
-- **Continuous improvement:** learning by building and refining through real projects.
+- **Data analysis:** working with data to answer questions and surface useful insights.
+- **Business intelligence:** creating clear reports and dashboards with Qlik and Power BI.
+- **Querying:** using SQL to explore and work with data.
+- **Mentoring:** supporting people who are learning programming and AI.
 
 ---
 
@@ -45,64 +44,50 @@ Systems Engineer focused on backend architecture, practical web products, and so
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Backend-API%20Design-0A66C2?style=for-the-badge" alt="Backend and API design" />
-<img src="https://img.shields.io/badge/Frontend-UX%20Driven-FF6B6B?style=for-the-badge" alt="UX driven frontend" />
-<img src="https://img.shields.io/badge/Database-PostgreSQL%20%2B%20MongoDB-4EAA25?style=for-the-badge" alt="PostgreSQL and MongoDB" />
-<img src="https://img.shields.io/badge/Delivery-Product%20Mindset-8A63D2?style=for-the-badge" alt="Product mindset" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-stats-dark.svg">
+  <img src="assets/card-stats-light.svg" alt="GitHub activity and repository statistics">
+</picture>
 
 </div>
 
-- **Core stack:** Python, JavaScript, TypeScript, React, Node.js, Express, FastAPI
-- **Data layer:** PostgreSQL, MongoDB, API design, maintainable architecture
-- **Product lens:** usability, clarity, and practical value
-- **Engineering style:** thoughtful, scalable, problem-first implementation
-
 ---
 
-## Stack
+## Data &amp; Analytics
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,javascript,typescript,react,nodejs,express,fastapi,postgresql,mongodb,tailwind,git,github,vscode&perline=6" alt="Technology stack">
+<img src="https://img.shields.io/badge/QlikView-0A66C2?style=for-the-badge" alt="QlikView">
+<img src="https://img.shields.io/badge/Qlik%20Sense-1F6FEB?style=for-the-badge" alt="Qlik Sense">
+<img src="https://img.shields.io/badge/Power%20BI-2F81F7?style=for-the-badge&logo=powerbi&logoColor=white" alt="Power BI">
+<img src="https://img.shields.io/badge/SQL-58A6FF?style=for-the-badge" alt="SQL">
 
 </div>
 
-**Core:** Python, JavaScript, TypeScript, React, Node.js, Express, FastAPI, PostgreSQL, MongoDB, Git, REST APIs, UX-focused product development.
+**Areas of interest:** data analysis · business intelligence · dashboards · data querying
 
 ---
 
-## Featured projects
+## Projects
 
-### [MAGEO](https://github.com/brunitaa/MAGEO)
+<div align="center">
 
-Product-focused web application created to help people find relevant places through a clearer and more intuitive experience.
+<a href="https://github.com/brunitaa/MAGEO"><img src="https://img.shields.io/badge/MAGEO-0A66C2?style=flat-square&logo=github&logoColor=white" alt="MAGEO"></a>
+<a href="https://github.com/brunitaa/CAA-Backend"><img src="https://img.shields.io/badge/CAA--BACKEND-1F6FEB?style=flat-square&logo=github&logoColor=white" alt="CAA-BACKEND"></a>
+<a href="https://github.com/brunitaa/CAA-ML"><img src="https://img.shields.io/badge/CAA--ML-2F81F7?style=flat-square&logo=github&logoColor=white" alt="CAA-ML"></a>
+<a href="https://github.com/brunitaa/ECOO"><img src="https://img.shields.io/badge/ECOO-58A6FF?style=flat-square&logo=github&logoColor=white" alt="ECOO"></a>
 
-- JavaScript • React • Node.js
-- UX-centered discovery and practical value for the end user
-
-### [CAA-Backend](https://github.com/brunitaa/CAA-Backend)
-
-Backend project focused on clean architecture, maintainable logic, and real-world service design.
-
-- Python • APIs • PostgreSQL
-- Emphasis on structure, scalability, and engineering clarity
-
-### [ParkFinderWEB](https://github.com/brunitaa/ParkFinderWEB)
-
-Web solution designed to simplify everyday decision-making by making parking information easier to access and understand.
-
-- HTML • CSS • JavaScript
-- Practical utility aimed at solving a tangible real-life problem
+</div>
 
 ---
 
-## Impact
+## Community
 
-- **Women Techmakers** — community ambassador
-- **Microsoft User Group Bolivia** — technology community involvement
-- **PyLadies Santa Cruz de la Sierra** — support for women in Python and tech
+- **Women Techmakers** — Community ambassador
+- **PyLadies Santa Cruz de la Sierra** — Supporting women in Python and technology
+- **Nos gusta la ciencia de programación IA** — Mentor
 
-I value engineering that is not only technical, but also collaborative, inclusive, and useful beyond the code itself.
+I value technology that is useful, collaborative, and accessible to others.
 
 ---
 
@@ -116,6 +101,6 @@ I value engineering that is not only technical, but also collaborative, inclusiv
 
 <br><br>
 
-<sub>Engineering with purpose • building useful software • @brunitaa</sub>
+<sub>Data with purpose · learning together · @brunitaa</sub>
 
 </div>
