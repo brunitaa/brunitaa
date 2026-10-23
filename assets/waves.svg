@@ -1,26 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" role="img" aria-labelledby="title desc">
-  <title id="title">Blue waves</title>
-  <desc id="desc">Soft blue waves moving above Bruna Antelo's name.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 130" role="img" aria-labelledby="title desc">
+  <title id="title">Ocean waves</title>
+  <desc id="desc">Layered blue ocean waves flowing gently above Bruna Antelo's name.</desc>
   <defs>
     <clipPath id="wave-clip">
-      <rect width="1000" height="100" />
+      <rect width="1000" height="130" />
     </clipPath>
+    <linearGradient id="ocean-back" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#58A6FF" stop-opacity=".72" />
+      <stop offset="1" stop-color="#1F6FEB" stop-opacity=".45" />
+    </linearGradient>
+    <linearGradient id="ocean-mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2F81F7" stop-opacity=".85" />
+      <stop offset="1" stop-color="#0A4DAA" stop-opacity=".72" />
+    </linearGradient>
+    <linearGradient id="ocean-front" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1F6FEB" stop-opacity=".9" />
+      <stop offset="1" stop-color="#0B2F63" stop-opacity=".88" />
+    </linearGradient>
   </defs>
-  <g clip-path="url(#wave-clip)" fill="none">
-    <g opacity=".35">
-      <path d="M0 42 C100 8 300 8 400 42 S700 76 800 42 S1100 8 1200 42 S1500 76 1600 42 S1900 8 2000 42" stroke="#58A6FF" stroke-width="2">
+  <g clip-path="url(#wave-clip)">
+    <g>
+      <path d="M0 52 C100 4 300 4 400 52 S700 100 800 52 S1100 4 1200 52 S1500 100 1600 52 S1900 4 2000 52 V130 H0 Z" fill="url(#ocean-back)">
         <animateTransform attributeName="transform" type="translate" from="0 0" to="-800 0" dur="12s" repeatCount="indefinite" />
       </path>
     </g>
-    <g opacity=".55">
-      <path d="M0 54 C100 30 300 30 400 54 S700 78 800 54 S1100 30 1200 54 S1500 78 1600 54 S1900 30 2000 54" stroke="#1F6FEB" stroke-width="3">
+    <g>
+      <path d="M0 76 C100 34 300 34 400 76 S700 118 800 76 S1100 34 1200 76 S1500 118 1600 76 S1900 34 2000 76 V130 H0 Z" fill="url(#ocean-mid)">
         <animateTransform attributeName="transform" type="translate" from="0 0" to="-800 0" dur="9s" repeatCount="indefinite" />
       </path>
     </g>
-    <g opacity=".8">
-      <path d="M0 66 C100 48 300 48 400 66 S700 84 800 66 S1100 48 1200 66 S1500 84 1600 66 S1900 48 2000 66" stroke="#2F81F7" stroke-width="2">
+    <g>
+      <path d="M0 98 C100 62 300 62 400 98 S700 134 800 98 S1100 62 1200 98 S1500 134 1600 98 S1900 62 2000 98 V130 H0 Z" fill="url(#ocean-front)">
         <animateTransform attributeName="transform" type="translate" from="0 0" to="-800 0" dur="7s" repeatCount="indefinite" />
       </path>
     </g>
+    <path d="M0 52 C100 4 300 4 400 52 S700 100 800 52 S1100 4 1200 52" fill="none" stroke="#A5D6FF" stroke-opacity=".65" stroke-width="2" />
+    <path d="M0 76 C100 34 300 34 400 76 S700 118 800 76 S1100 34 1200 76" fill="none" stroke="#79C0FF" stroke-opacity=".5" stroke-width="1.5" />
   </g>
 </svg>
