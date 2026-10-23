@@ -1,8 +1,11 @@
 <div align="center">
 
-<img src="assets/waves.svg" width="100%" alt="Animated blue waves">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/waves-dark.gif">
+  <img src="assets/waves-light.gif" width="100%" alt="Animated ocean waves">
+</picture>
 
-<h1>Bruna Antelo</h1>
+<h1>Bruna Antelo Prado</h1>
 <h3>Systems Engineer • Data Analyst • AI &amp; Programming Mentor</h3>
 
 <p>

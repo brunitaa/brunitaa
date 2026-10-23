@@ -31,7 +31,7 @@ TRAVELLER_COUNT = 900
 SEED = 314159
 
 ROWS = [
-    ("Engineer", "Bruna Antelo"),
+    ("Engineer", "Bruna Antelo Prado"),
     ("Role", "Systems Engineer · Product-minded builder"),
     ("Base", "Bolivia · LATAM"),
     ("Education", "Systems Engineering"),
