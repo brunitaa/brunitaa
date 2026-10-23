@@ -9,7 +9,8 @@ These are files in your own repo, so they render as long as GitHub renders.
     python scripts/cards.py --user brunitaa --out assets
 
 Writes <out>/card-stats-{dark,light}.svg plus one card per repo listed in
-assets/projects.json, as <out>/card-<repo>-{dark,light}.svg.
+assets/projects.json, as <out>/card-<repo>-{dark,light}.svg, and a linked
+two-column project grid as <out>/projects-grid-{dark,light}.svg.
 
 Star and fork counts come from the live API on every run. Descriptions come from
 projects.json when set, otherwise the repo's own GitHub description.
@@ -281,6 +282,35 @@ def render_repo(repo, theme):
     return frame(W, H, c, "".join(out), f'{repo["name"]} repository card')
 
 
+def render_project_grid(projects, theme):
+    card_w, card_h, gap = 420, 132, 18
+    columns = 2
+    rows = (len(projects) + columns - 1) // columns
+    width = columns * card_w + gap
+    height = rows * card_h + max(0, rows - 1) * gap
+    out = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" '
+        f'width="{width}" height="{height}" role="img" '
+        f'aria-label="Featured projects" font-family="{FONT}">'
+    ]
+
+    for index, (repo, url) in enumerate(projects):
+        row, column = divmod(index, columns)
+        x = column * (card_w + gap)
+        if row == rows - 1 and len(projects) % columns == 1:
+            x = (width - card_w) / 2
+        y = row * (card_h + gap)
+        svg = render_repo(repo, theme)
+        body = svg.partition(">")[2].rsplit("</svg>", 1)[0]
+        out.append(
+            f'<a href="{esc(url)}"><g transform="translate({x},{y})">'
+            f'{body}</g></a>'
+        )
+
+    out.append("</svg>")
+    return "".join(out)
+
+
 # --------------------------------------------------------------------------- #
 
 
@@ -338,6 +368,7 @@ def main(argv=None):
 
     by_name = {r["name"].lower(): r for r in repos}
     by_url = {r["html_url"].rstrip("/").split("/")[-1].lower(): r for r in repos}
+    rendered_projects = []
 
     for entry in wanted:
         if not isinstance(entry, dict):
@@ -363,11 +394,19 @@ def main(argv=None):
             "stars": src["stargazers_count"],
             "forks": src["forks_count"],
         }
+        rendered_projects.append((card, src["html_url"]))
         for theme in ("dark", "light"):
             dest = args.out / f"card-{src['name']}-{theme}.svg"
             dest.write_text(render_repo(card, theme), encoding="utf-8")
         print(f"wrote card-{src['name']}-*.svg  "
               f"({card['stars']}star {card['forks']}fork {card['language']})")
+
+    if rendered_projects:
+        for theme in ("dark", "light"):
+            dest = args.out / f"projects-grid-{theme}.svg"
+            dest.write_text(render_project_grid(rendered_projects, theme),
+                            encoding="utf-8")
+        print(f"wrote projects-grid-*.svg  ({len(rendered_projects)} cards)")
 
 
 if __name__ == "__main__":

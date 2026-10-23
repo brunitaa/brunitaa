@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/waves.gif" width="100%" alt="Animated blue waves">
+<img src="assets/waves.svg" width="100%" alt="Animated blue waves">
 
 <h1>Bruna Antelo</h1>
 <h3>Systems Engineer • Data Analyst • AI &amp; Programming Mentor</h3>
@@ -74,11 +74,10 @@ I am a Systems Engineer and Data Analyst who enjoys turning data into clear info
 
 <div align="center">
 
-<a href="https://github.com/brunitaa/MAGEO"><img src="assets/card-MAGEO-dark.svg" width="420" height="132" alt="MAGEO repository card"></a>&nbsp;&nbsp;
-<a href="https://github.com/brunitaa/CAA-Backend"><img src="assets/card-CAA-Backend-dark.svg" width="420" height="132" alt="CAA-Backend repository card"></a>
-<br><br>
-<a href="https://github.com/brunitaa/CAA-ML"><img src="assets/card-CAA-ML-dark.svg" width="420" height="132" alt="CAA-ML repository card"></a>&nbsp;&nbsp;
-<a href="https://github.com/brunitaa/ECOO"><img src="assets/card-ECOO-dark.svg" width="420" height="132" alt="ECOO repository card"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects-grid-dark.svg">
+  <img src="assets/projects-grid-light.svg" width="858" alt="Four project cards arranged in two rows">
+</picture>
 
 </div>
 
